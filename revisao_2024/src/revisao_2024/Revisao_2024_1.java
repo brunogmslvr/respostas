@@ -116,7 +116,212 @@ public class Revisao_2024 {
          int e = 9;
          System.out.println(d > e);
          
+         //25
+         int x = 50;
+         int y = 10;
+         if (x > y){
+         System.out.println("Hello World");
+         }
          
+         //26
+         int x = 50;
+         int y = 10;
+         if (x == y){
+         System.out.println("Hello World");
+         }
+         
+         //27
+         int x = 50;
+         int y = 50;
+         if (x == y){
+         System.out.println("yes");
+         } else  {
+    }   System.out.println("no");
+        }
+    
+    
+        //28
+        int x = 50;
+        int y = 50;
+        if (x == y){
+        System.out.println("1");
+        }   else (x > y){
+        System.out.println("2");
+        } else {
+        System.out.println("3");
+        }  
+        
+        //29
+        int time =20;
+        String result = if time < 18 else "Good Day." else "Good evening.";
+        System.out.println(result);
+        
+        //30
+        int day = 2;
+        switch (day);{
+         case  1:
+        System.out.println("Saturday");
+        break;
+         case  2;
+        System.out.println("Sunday");
+        break;
+        }
+            
+       //31
+       int day = 4;
+       switch (day){
+           case 1:
+       System.out.println("Saturday");
+       break;
+           case 2;
+       System.out.println("Sunday");
+       break;
+       default;
+        System.out.println("Weekend");
+       }
+               
+       //32
+       int i = 1;
+       for (i < 6); {
+       System.out.println (i);
+       break;
+       }
+       
+       //33
+       int i = 1;
+        do {
+           system.out.println(i);
+           i++;
+       }
+        while (i < 6);
+        
+        //34
+          for (int i = 0; i < 5;  ) {
+        System.out.println("sim");
+        
+        //35
+        string[] cars = {"Volvo", "BMW", "Ford"}
+           for  (string i: cars  ){
+        System.out.println(i);
+          }
+           
+        //36
+        for (int i = 0; i < 10; i++){
+        if (i == 5)
+         break;
+        }
+        System.out.println(i);
+        
+        
+        //37
+        for (int i = 0; i < 10; i++){
+        if (i == 4)
+        continue;
+        }
+        System.out.println(i);
+        
+        //38
+           string[] cars = {"Volvo","Bmw";"Ford"};
+          
+          //39
+           string[] cars = {"Volvo","Bmw";"Ford"};
+           system.out.prinln(cars[0])
+
+           //40
+           string[] cars = {"Volvo","Bmw";"Ford"};
+            cars[0] = "Opel";
+           system.out.prinln(cars[0])
+
+           //41
+           string[] cars = {"Volvo","Bmw";"Ford"};
+           int numberOfCars = cars.length;
+           System.out.println("O array cars possui " + numberOfCars + " elementos.");
+
+           //42
+           string[] cars = {"Volvo","Bmw";"Ford"};
+              for  (string i: cars ) {
+           System.ou.println(i);
+
+          //43
+        int []][] myNumbers = { { 1, 2,3,4}, {5,6,7,} };
+
+        //44
+         Static void myMethod(){
+         System.out.println("i just got executed !");
+    }
+         public static void main (String[]args) {
+             myMethod;
+         }
+        //45
+        static void myMeyhod(){
+            System.out.println("i just got executed!");
+        }
+        public static void main(String[] args){
+           myMethod;
+                   myMethod; */
+        //46
+        static void myMethod(fname){
+            System.out.println(fname + "doe");
+        }
+        public static  void main(String[] args){
+            myMethod("john");
+        }
+}
+
+        //47
+                  static int myMethod(int x){
+                return 5+x;
+            }
+            public static void main(String[] arg){
+                System.out.println(mMethod3));}
+
+         
+        //48
+        public class myClass
+        
+        //49
+       public class myClass  = new myObjt();
+       
+       //50
+           public class myClass {
+                       int x = 5 ;
+                       public static void main(String[]args) {
+                           myClass myObj = new myClass();
+                           System.out.preintln(myObj.x);
+                           //exerciciio51
+                           publiuc class myClass {
+                               public void myMETHOD (){
+                                   system.out.println("hello word")
+                                           
+        //51
+        public class myClass {
+          public void myMthod()
+          System.out.println("Hello World");
+        }
+        
+        
+          //52
+                              //create a myClass class
+                               public class
+                                       int x; //create a class attribute
+                                       //create a class constructor for  the myClaass x to 5}
+                                       public static void main(String[]arg){
+                                           myclass myObj = new myClass();
+                                           sytem.out.println(myOby.x);
+                                       }
+
+        //53
+        final class myClass*/
+        tem menu de contexto
+                   
+        //54
+        import java.util.Sanner
+                   
+        //55
+        Classe Car extends Vehicle 
+                  
+        
+       
          
          
          
