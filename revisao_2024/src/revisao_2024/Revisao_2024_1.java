@@ -32,14 +32,14 @@ public class Revisao_2024 {
         System.out.println(x + y);
         
         // ex6
-        int x = 5;
-        int y = 10;
-        int z = x + y;
+        int q = 5;
+        int w = 10;
+        int e = q + w;
         System.out.println("a soma é:"+z);
         
         // ex7
-        int x=5; y=6; z=50;
-        System.out.println(x+y+z);
+        int r=5; t=6; u=50;
+        System.out.println(r+t+u);
         
         // ex8
         int myNum = 9;
@@ -62,12 +62,12 @@ public class Revisao_2024 {
         System.out.println("A divisão é: " + (10 / 5));
         
         //x13
-         x = 10;
-         ++x;
+         o = 10;
+         ++o;
          
          //x14
-         int x = 10;
-         x += 5;
+         int p = 10;
+         p += 5;
          
          //x15
          greeting = Hello;
@@ -89,13 +89,13 @@ public class Revisao_2024 {
          System.out.println(firstName(+)lastName);
          
          //19
-         String txt = "Hello Everybody";
+         String txt1 = "Hello Everybody";
          System.out.println(txt.indexoff(e));
          
          //20
          int a = 5;
          int b = 10;
-         Math.max(x,y);
+         Math.max(a,b);
          
          
          //21
@@ -103,7 +103,7 @@ public class Revisao_2024 {
          Math.sqrt(c);
          
          //x22
-         Math.random(x);
+         Math.random();
          
          //23
           boolean  isJavaFun = true;
@@ -117,23 +117,23 @@ public class Revisao_2024 {
          System.out.println(d > e);
          
          //25
-         int x = 50;
-         int y = 10;
-         if (x > y){
+         int f = 50;
+         int g = 10;
+         if (f > g){
          System.out.println("Hello World");
          }
          
          //26
-         int x = 50;
-         int y = 10;
-         if (x == y){
+         int j = 50;
+         int k = 10;
+         if (j == k){
          System.out.println("Hello World");
          }
          
          //27
-         int x = 50;
-         int y = 50;
-         if (x == y){
+         int l = 50;
+         int z = 50;
+         if (l == z){
          System.out.println("yes");
          } else  {
     }   System.out.println("no");
@@ -141,11 +141,11 @@ public class Revisao_2024 {
     
     
         //28
-        int x = 50;
-        int y = 50;
-        if (x == y){
+        int v = 50;
+        int n = 50;
+        if (v == n){
         System.out.println("1");
-        }   else (x > y){
+        }   else (v > n){
         System.out.println("2");
         } else {
         System.out.println("3");
@@ -168,8 +168,8 @@ public class Revisao_2024 {
         }
             
        //31
-       int day = 4;
-       switch (day){
+       int day1 = 4;
+       switch (day1){
            case 1:
        System.out.println("Saturday");
        break;
@@ -181,44 +181,44 @@ public class Revisao_2024 {
        }
                
        //32
-       int i = 1;
-       for (i < 6); {
-       System.out.println (i);
+       int m = 1;
+       for (m < 6); {
+       System.out.println (m);
        break;
        }
        
        //33
-       int i = 1;
+       int num = 1;
         do {
-           system.out.println(i);
-           i++;
+           system.out.println(num);
+           num++;
        }
-        while (i < 6);
+        while (num < 6);
         
         //34
-          for (int i = 0; i < 5;  ) {
+          for (int num1 = 0; num1 < 5;  ) {
         System.out.println("sim");
         
         //35
-        string[] cars = {"Volvo", "BMW", "Ford"}
-           for  (string i: cars  ){
-        System.out.println(i);
+        tring[] cars = {"Volvo", "BMW", "Ford"}
+           for  (string num2: cars  ){
+        System.out.println(num2);
           }
            
         //36
-        for (int i = 0; i < 10; i++){
-        if (i == 5)
+        for (int num3 = 0; num3 < 10; num3++){
+        if (num3 == 5)
          break;
         }
-        System.out.println(i);
+        System.out.println(num3);
         
         
         //37
-        for (int i = 0; i < 10; i++){
-        if (i == 4)
+        for (int num4 = 0; num4 < 10; num4++){
+        if (num4 == 4)
         continue;
         }
-        System.out.println(i);
+        System.out.println(num4);
         
         //38
            string[] cars = {"Volvo","Bmw";"Ford"};
@@ -239,8 +239,8 @@ public class Revisao_2024 {
 
            //42
            string[] cars = {"Volvo","Bmw";"Ford"};
-              for  (string i: cars ) {
-           System.ou.println(i);
+              for  (string num5: cars ) {
+           System.ou.println(num5);
 
           //43
         int []][] myNumbers = { { 1, 2,3,4}, {5,6,7,} };
@@ -249,7 +249,7 @@ public class Revisao_2024 {
          Static void myMethod(){
          System.out.println("i just got executed !");
     }
-         public static void main (String[]args) {
+         /*public static void main (String[]args) {
              myMethod;
          }
         //45
@@ -258,7 +258,7 @@ public class Revisao_2024 {
         }
         public static void main(String[] args){
            myMethod;
-                   myMethod; */
+                   myMethod; 
         //46
         static void myMethod(fname){
             System.out.println(fname + "doe");
@@ -269,8 +269,8 @@ public class Revisao_2024 {
 }
 
         //47
-                  static int myMethod(int x){
-                return 5+x;
+                  static int myMethod(int num6){
+                return 5+num6;
             }
             public static void main(String[] arg){
                 System.out.println(mMethod3));}
@@ -284,10 +284,10 @@ public class Revisao_2024 {
        
        //50
            public class myClass {
-                       int x = 5 ;
+                       int num7 = 5 ;
                        public static void main(String[]args) {
                            myClass myObj = new myClass();
-                           System.out.preintln(myObj.x);
+                           System.out.preintln(myObj.num7);
                            //exerciciio51
                            publiuc class myClass {
                                public void myMETHOD (){
@@ -301,24 +301,23 @@ public class Revisao_2024 {
         
         
           //52
-                              //create a myClass class
+                             
                                public class
-                                       int x; //create a class attribute
-                                       //create a class constructor for  the myClaass x to 5}
+                                       int num8; 
                                        public static void main(String[]arg){
                                            myclass myObj = new myClass();
-                                           sytem.out.println(myOby.x);
+                                           sytem.out.println(myOby.num8);
                                        }
 
         //53
-        final class myClass*/
+        final class myClass
         tem menu de contexto
                    
         //54
         import java.util.Sanner
                    
         //55
-        Classe Car extends Vehicle 
+        Classe Car extends Vehicle */
                   
         
        
